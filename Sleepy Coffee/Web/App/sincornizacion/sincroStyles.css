@@ -1,0 +1,60 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    position: static;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-size: cover;
+}
+
+.wrapper {
+
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: cornsilk;
+    color: black;
+}
+
+
+#carga {
+    width: 60%;
+    position: absolute;
+    top: 28%;
+    left: 18%;
+}
+
+#espera {
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#continua {
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    display: none;
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#gif {
+    position: absolute;
+    left: 13%;
+}

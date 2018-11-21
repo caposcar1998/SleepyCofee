@@ -1,0 +1,111 @@
+<!Doctype HTML>
+
+<html>
+
+<head>
+
+
+    <!-- Begin Inspectlet Asynchronous Code -->
+    <script type="text/javascript">
+        (function() {
+            window.__insp = window.__insp || [];
+            __insp.push(['wid', 1159043235]);
+            var ldinsp = function() {
+                if (typeof window.__inspld != "undefined") return;
+                window.__inspld = 1;
+                var insp = document.createElement('script');
+                insp.type = 'text/javascript';
+                insp.async = true;
+                insp.id = "inspsync";
+                insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1159043235&r=' + Math.floor(new Date().getTime() / 3600000);
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(insp, x);
+            };
+            setTimeout(ldinsp, 0);
+        })();
+
+    </script>
+    <!-- End Inspectlet Asynchronous Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129409084-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129409084-2');
+
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="cambioStyles.css" rel="stylesheet">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/store.everything.min.js"></script>
+    <script src="../registro/registroQuerry.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+
+        <h1 id="titulo">Make your coffee</h1>
+
+        <div class="uno">
+            <h3>Intensity</h3>
+            <input type="radio" value="light" class="inte" id="light" name="a">
+            <label for="light" id="label-light">Light</label>
+            <input type="radio" value="medium" class="inte" id="medium" name="a">
+            <label for="medium" id="label-medium">Medium</label>
+            <input type="radio" value="heavy" class="inte" id="heavy" name="a">
+            <label for="heavy" id="label-heavy">Heavy</label>
+
+        </div>
+
+        <div class="dos">
+            <h3>Spoons of sugar</h3>
+            <input type="radio" value="1" class="sugar" id="uno" name="b">
+            <label for="uno" id="sugar-one">one</label>
+            <input type="radio" value="2" class="sugar" id="dos" name="b">
+            <label for="dos" id="sugar-two">two</label>
+            <input type="radio" value="3" class="sugar" id="tres" name="b">
+            <label for="tres" id="sugar-three">three</label>
+
+        </div>
+
+        <div class="tres">
+            <h3>Alarm time</h3>
+            <input type="time" id="reloj">
+
+        </div>
+
+        <div class="cuatro">
+            <h3 id="tiempo-ready">Time you need to be ready</h3>
+
+            <input type="datetime" id="despertar" placeholder="Minutes">
+        </div>
+
+
+        <a href="../relojes/relojes.html">
+            <input type="button" value="Prepare coffee" id="finish"></a>
+
+    </div>
+
+
+
+
+</body>
+
+
+</html>

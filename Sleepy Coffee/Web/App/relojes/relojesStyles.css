@@ -1,0 +1,127 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    position: static;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-size: cover;
+
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.wrapper {
+
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: cornsilk;
+    color: black;
+}
+
+#cuenta {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    color: black;
+}
+
+#borrar-alarma {
+    position: absolute;
+    right: 0px;
+    top: -16px;
+    color: black;
+}
+
+#alarmas {
+    position: relative;
+    margin-left: 18%;
+    font-size: 78px;
+    margin-top: -15%;
+}
+
+#nivel-uno {
+    position: relative;
+    margin-left: 32%;
+    margin-top: -64px;
+    font-size: 30px;
+}
+
+#nivel-null {
+    position: relative;
+    margin-left: 39%;
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+#tiempo-uno {
+    position: relative;
+    margin-left: 40%;
+    margin-top: -40px;
+    font-size: 30px;
+
+}
+
+#tiempo-null {
+    position: relative;
+    margin-left: 39%;
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+#sugar-uno {
+    position: relative;
+    margin-left: 39%;
+    margin-top: -18px;
+    font-size: 30px;
+}
+
+#sugar-null {
+    position: relative;
+    margin-left: 45%;
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+#activar-uno {
+    position: relative;
+    margin-left: 45%;
+}
+
+
+
+#set {
+    position: absolute;
+    /* margin-left: 45%; */
+    top: 95%;
+
+    width: 100%;
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+}
+
+#borrar-cuenta {
+    position: absolute;
+    /* margin-left: 45%; */
+    top: 85%;
+
+    width: 100%;
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+}

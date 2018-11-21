@@ -1,0 +1,526 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    position: static;
+    font-family: 'Spicy Rice', cursive;
+    background-size: cover;
+    background-color: cornsilk;
+}
+
+.wrapper {
+
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: cornsilk;
+    font-family: 'Spicy Rice', cursive;
+}
+
+
+#video {
+    width: 500px;
+    position: relative;
+    top: 37%;
+    left: 26%;
+}
+
+.uno {
+    width: 33.3%;
+    float: left;
+
+    height: inherit;
+}
+
+.do2 {
+    width: 66.6%;
+    float: left;
+    height: inherit;
+    font-family: 'Spicy Rice', cursive;
+}
+
+#logo {
+    position: absolute;
+    top: 1%;
+    left: 22%;
+    width: 15%;
+}
+
+.lista1 {
+    top: 34%;
+    left: 54%;
+    font-size: 26px;
+    list-style: none;
+    position: relative;
+    font-family: 'Spicy Rice', cursive;
+
+}
+
+.icons {
+    position: relative;
+    top: 30%;
+    left: 54%;
+
+}
+
+
+.boton {
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+
+.boton i {
+    line-height: 53px;
+    font-size: 30px;
+    transition: .2s linear;
+}
+
+.boton:hover i {
+    transform: scale(1.3);
+    color: black;
+}
+
+.boton::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: white;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.boton:hover::before {
+    animation: aaa .7s, 1;
+    top: -10%;
+    left: -10%;
+}
+
+
+#titulo {
+    left: 58%;
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Spicy Rice', cursive;
+}
+
+#slogan {
+    position: absolute;
+    top: 14%;
+    left: 56%;
+    font-family: 'Spicy Rice', cursive;
+}
+
+#texto {
+    position: absolute;
+    top: 25%;
+    left: 67%;
+}
+
+li {
+    margin: 40px;
+}
+
+#cosas1 {
+    width: 50px;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.texto-video {
+
+    background-color: cornsilk;
+}
+
+.video {
+    width: 50%;
+    float: left;
+
+    background-color: cornsilk;
+}
+
+.texto-de-video {
+    width: 50%;
+    float: left;
+    background-color: cornsilk;
+}
+
+#textoAche {
+    margin-top: -2.5%;
+    font-size: 19px;
+    font-family: 'Merriweather', serif;
+}
+
+#video-resentacion {
+    width: 480px;
+    height: 315px;
+}
+
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.owl-carousel owl-theme {
+    width: 100px;
+}
+
+.items {
+    width: 1000px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    position: static;
+    width: 50%;
+
+}
+
+
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+    display: block;
+    position: relative;
+    top: 26%;
+    width: 450px;
+    left: 28%;
+    margin: 0, 0, 0, 0;
+}
+
+
+
+#burguer {
+    display: none;
+}
+
+.opciones-menu-ajustable {
+    display: none;
+}
+
+
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: 30%;
+}
+
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 77px;
+    padding: 37px 13px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 27px;
+}
+
+.magico {
+    display: none;
+}
+
+
+/*Inicia resolucion tablet***********************
+*************************************************
+**********************************************/
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+
+    .owl-carousel .owl-item img {
+        display: block;
+        position: static;
+        width: 50%;
+
+    }
+
+    #cosas1 {
+        color: white;
+    }
+
+
+    #logo {
+        position: absolute;
+        top: 1%;
+        left: 34%;
+        width: 30%;
+    }
+
+
+    .icons {
+        position: relative;
+        top: 29%;
+        left: 106%;
+        display: flex;
+    }
+
+    #titulo {
+        display: block;
+        top: 225px;
+        left: 32%;
+        font-family: 'Spicy Rice', cursive;
+        font-size: 50px;
+    }
+
+    #slogan {
+        position: absolute;
+        top: 40%;
+        left: 21%;
+        font-family: 'Spicy Rice', cursive;
+        font-size: 34px;
+    }
+
+    #propo {
+        color: white;
+    }
+
+
+
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+        position: relative;
+        top: 50%;
+        width: 379px;
+        left: -7%;
+        margin: 0, 0, 0, 0;
+    }
+
+    #cosas1 {
+        display: none;
+    }
+
+    #cosas {
+        display: none;
+    }
+
+    #burguer {
+        display: block;
+        position: absolute;
+        font-size: 115px;
+    }
+
+    .opciones-menu-ajustable {
+        display: none;
+        position: absolute;
+        font-size: 30px;
+        background-color: black;
+        /*Opacity start*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.60;
+        -khtml-opacity: 0.6;
+        opacity: 0.6;
+        display: none;
+        font-family: 'Merriweather', serif;
+        z-index: 1;
+        color: white;
+    }
+
+    #textoAche {
+        position: absolute;
+        font-size: 25px;
+        top: 10;
+        top: 142%;
+        font-family: 'Merriweather', serif;
+    }
+
+
+
+
+    .item {
+        width: 800px;
+    }
+
+
+
+    .video {
+        float: none;
+        width: 100%;
+    }
+
+    .titulo-texto2 {
+        float: none;
+        width: 100;
+    }
+
+    #texto-ache {
+        display: inline;
+        margin-top: 12.5%;
+    }
+
+    #video-resentacion {
+        position: relative;
+        left: 19%;
+    }
+
+    #titulo-texto2 {
+        position: absolute;
+        left: 33%;
+    }
+
+    #textoAche {
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Merriweather', serif;
+    }
+
+    .magico1 {
+        display: none;
+    }
+
+    .magico {
+        display: block;
+    }
+
+
+
+}
+
+
+/*Inicia resolucion mobil***********************
+*************************************************
+**********************************************/
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #video {
+        width: 100px;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        position: static;
+        width: 50%;
+
+    }
+
+    #burguer {
+        display: block;
+        font-size: 50px;
+    }
+
+    .opciones-menu-ajustable {
+        display: none;
+
+    }
+
+    .item {
+        width: 300px;
+    }
+
+
+    #slogan {
+        left: 5%;
+    }
+
+
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+        position: relative;
+        top: 63%;
+        width: 167px;
+        left: -5%;
+        margin: 0, 0, 0, 0;
+    }
+
+    #cosas1 {
+        display: none;
+    }
+
+    #cosas {
+        display: none;
+    }
+
+    .icons {
+        position: absolute;
+        top: 165px;
+        transform: translateY;
+        left: 12%;
+        display: inline-flex;
+    }
+
+    #titulo {
+        display: block;
+        top: 105px;
+        left: 27%;
+        font-size: 30px;
+
+
+    }
+
+    #burguer {
+        display: block;
+        font-size: 50px;
+    }
+
+    .opciones-menu-ajustable {
+        display: none;
+        font-size: 10px;
+
+    }
+
+    .item {
+        width: 300px;
+    }
+
+    #propo {
+        color: white;
+    }
+
+    #video-resentacion {
+        width: 300px;
+        height: 150px;
+        margin-left: -12%;
+
+    }
+
+    #titulo-texto2 {
+        position: absolute;
+        left: 17%;
+    }
+
+
+
+
+    #textoAche {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .magico1 {
+        display: none;
+    }
+
+
+
+}

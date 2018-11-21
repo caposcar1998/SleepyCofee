@@ -1,0 +1,48 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    position: static;
+    color: black;
+    background-size: cover;
+}
+
+.wrapper {
+
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background: cornsilk;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+}
+
+
+
+
+.lista {
+    left: 6%;
+    position: absolute;
+    top: 20%;
+
+    color: black;
+}
+
+#flecha {
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+    color: black;
+}
+
+#seti {
+    position: absolute;
+    left: 22%;
+
+    font-size: 54px;
+}
